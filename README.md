@@ -1,2 +1,2 @@
 # Python
-<br/>Author-Aadit Sharma
+<br/><h1>Author-Aadit Sharma</h1>
