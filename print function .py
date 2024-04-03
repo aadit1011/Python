@@ -18,3 +18,7 @@ name="Varun";
 
 #Using Sep to separate here sep=2 whitespace
 print("Name is",name,sep='  ');
+
+
+
+
