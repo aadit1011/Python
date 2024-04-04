@@ -10,7 +10,6 @@ name=input("Enter your name again=");
 name=name.title();
 print("Your full name is="+name,sep='',end='');
 
-
 # making it more short 
 first,last=input("Enter your full name=").strip().title().split(" ");
 num=len(first)+len(last);
