@@ -4,7 +4,7 @@ def meow(n):
                print("*");
                
                
-               
+#To print the * using range               
                
 def main():
           num=input("Enter number=");
