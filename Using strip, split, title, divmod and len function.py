@@ -22,3 +22,8 @@ print(f"Your name has {num} letters");
 address=input("Enter your address=");
 city,street=address.split(" ");
 print("You live in "+city+" city");
+
+#Using divmod function to find division and remainder
+num1,num2=divmod(15,2);
+print(num1);
+print(num2);
