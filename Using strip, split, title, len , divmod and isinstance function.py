@@ -27,3 +27,10 @@ print("You live in "+city+" city");
 num1,num2=divmod(15,2);
 print(num1);
 print(num2);
+
+#Using isinstance function 
+num=isinstance(5.4,float);
+print(num);
+
+name=isinstance("Aadit",str);
+print(name);
