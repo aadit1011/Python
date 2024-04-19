@@ -1,4 +1,4 @@
-#Using replace function to replace the string value..........
+#Using replace function to replace the string value..
 
 def change(inputs):
               print(inputs.replace("Hello","Welcome to the jungle")); 
