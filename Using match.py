@@ -19,6 +19,7 @@ match choice:
                 print(f"The  value of {x} when divided by {y}={div}");   
                 
           case 5:
+                print("Terminating the program.........");
                 exit();
           case _:
                print("Please Enter the Correct choice Value......");
