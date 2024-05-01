@@ -1,4 +1,5 @@
-#Using loops in 2 ways.............
+#Using loops in 2 ways.
+
 #Using loop in 1st way........
 for i in range(3):
           print("Hello");
