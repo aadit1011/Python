@@ -13,3 +13,14 @@ print('Tuple with Characters',tuple1);
 print('Mixed Tuple',tuple2);
 print('Mixed Tuple',tuple3);
 print('Nested Tuple',tuple4);
+#To delete Tuples 
+delete=('A','B','C','D','E','F','G','H',{1,2,3,4,5,6,7,8});
+print(delete);
+del delete;
+try:
+     print(delete);
+except NameError:
+     print('Tuple does not exist.');     
+
+else:
+     print("Tuple is deleted.....");
