@@ -1,9 +1,9 @@
-#To create file 
-#TO store the user input details
+#To create a file...
+#TO store the user input details...
 detail=[];
-#To store the respective user input questions
+#To store the respective user input questions..
 question=['Name','Address','Phone Number','Email'];
-#To create new file or write inside the file
+#To create new file or write inside the file..
 with open('D:\\Python\\hello.txt','w') as file:
      for i in range(len(question)):
           detail.append(input(f"Please enter your {question[i]}="));
