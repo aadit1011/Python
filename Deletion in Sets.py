@@ -24,3 +24,12 @@ Using_Discard('February');
 #But using discard method if non existing items are tried to remove from the list it handles the case without throwing an error
 
 Using_Discard('Asad');
+
+#Using clear function to delete whole set
+sets.clear();
+if sets==True:
+     for items in sets:
+          print(items);
+          
+else:
+     print('Already deleted....');
