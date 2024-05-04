@@ -33,3 +33,11 @@ if sets==True:
           
 else:
      print('Already deleted....');
+
+sets2={'January','February','March','April','May','June','July','August','September','October','November','December'}; 
+#Removes an item everytime it is used
+sets2.pop();
+print(sets2);
+#To empty the whole set
+sets2.clear();
+print(sets2);
