@@ -33,7 +33,7 @@ add(b=5,a=2);
 add(a=13,b=16);
 
 #Function with variable length argument.....
-
+#*args and **kargs
 def function(*args_list):
      ans=[];
      for i in args_list:
