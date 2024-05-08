@@ -1,4 +1,4 @@
-#Set difference 
+#Set difference...
 seta={'Aadit','Bardan','Ankit','Roshan','Bipin','Biyash'};
 setb={'Prijal','Nabin','Abhishek','Biyash'};
       
@@ -7,7 +7,7 @@ print(seta-setb);
 #set difference in another way
 setp={'Apple','mango','Banana','Grapes'};
 setq={'Apple','tomato','Banana'};
-print(setp-setq);
+print(setp.difference(setq));
 
 #Frozen sets
 set_frozen=frozenset({'Aadit','Pepsicola','Tohoma'});
