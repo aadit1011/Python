@@ -1,5 +1,5 @@
 #To delete the items in set
-#Using remove and discard methods
+#Using remove and discard methods..
 
 sets={'January','February','March','April','May','June','July','August','September','October','November','December'};
 def Using_Remove(para1):
