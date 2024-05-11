@@ -18,7 +18,7 @@ def main():
      
 main();
 
-#Using exec function
+#Using exec function..
 #exec()
 
 operation1='''
