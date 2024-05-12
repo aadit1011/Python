@@ -1,5 +1,5 @@
 # Python
-<h2 align='center'>Python Practice for the Data Science Roadmap....</h2>
+<h2 align='center'>Python Practice for Data Science </h2>
 <p>
   <br/>
   Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
