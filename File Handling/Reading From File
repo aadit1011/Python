@@ -1,0 +1,4 @@
+#any specific file location can be given..
+with open('D:\\Python\\File_io\\description.txt', 'r') as file:
+     detail=file.read();
+     print(detail);
