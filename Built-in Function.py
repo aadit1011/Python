@@ -1,4 +1,4 @@
-#Using absolute function
+#Using absolute function.
 #abs()
 def main():
      num=int(input("Enter number="));
