@@ -2,3 +2,12 @@
 with open('D:\\Python\\File_io\\description.txt', 'r') as file:
      detail=file.read();
      print(detail);
+
+
+#Reading file using for loop 
+#Desired file location can be given 
+with open("D:\\Python\\hello.txt",'r') as file:
+     for items in file:
+          print(items);
+          
+
