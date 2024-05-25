@@ -1,4 +1,5 @@
 #Using anonymous function
+#Also known as lambda function
 def main():  
      number=int(input('Please!Enter a number='));
      num=int(input('Please Enter another number='));
