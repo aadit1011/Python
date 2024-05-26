@@ -1,5 +1,5 @@
-#Using absolute function..
-#abs()
+#Using absolute function...
+#abs function
 def main():
      num=int(input("Enter number="));
      numb=abs(num);
