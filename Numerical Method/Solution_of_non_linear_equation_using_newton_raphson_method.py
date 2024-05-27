@@ -1,6 +1,6 @@
 from math import fabs
 
-
+ 
 # Global variables
 x0 = None  # Initial guess
 x1 = None  # Next guess
