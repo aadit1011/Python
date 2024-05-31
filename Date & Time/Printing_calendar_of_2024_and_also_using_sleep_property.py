@@ -7,8 +7,8 @@ for i in range(0, 12):
     # `i+1` is used because months are 1-indexed (1 for January, 2 for February, etc.)
     print(calendar.month(2024, i+1))
     
-    # Introduce a delay of 5 seconds before printing the next month
+    # Introduce a delay of 5 seconds before printing the next month's
     time.sleep(5)
 
-#printing the calendar of the whole year
+#printing the calendar of the whole year.
 print(calendar.prcal(2023));
