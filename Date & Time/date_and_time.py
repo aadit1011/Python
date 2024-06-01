@@ -1,5 +1,5 @@
-import datetime;
-import time;
+import datetime
+import time
 #Sleep helps to execute the certain loop after the provided time...
 for i in range(5):
      print(i);
