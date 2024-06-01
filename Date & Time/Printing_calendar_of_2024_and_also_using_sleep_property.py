@@ -12,3 +12,8 @@ for i in range(0, 12):
 
 #printing the calendar of the whole year.
 print(calendar.prcal(2023));
+
+year=int(input('Enter the year='));
+month=int(input('Enter the month='));
+
+print(calendar.month(year,month));
