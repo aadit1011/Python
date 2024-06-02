@@ -1,4 +1,4 @@
-#Calculating the magnitude of the vector in math
+#Calculating the magnitude of the vector in math..
 import math;
 
 def magnitude():
