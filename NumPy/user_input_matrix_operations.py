@@ -4,7 +4,7 @@ import numpy as np;  # Import numpy for matrix operations
 matrix_a = [];  # Matrix A
 matrix_b = [];  # Matrix B
 add = [];  # Addition result
-sub = [];  # Subtraction result
+sub = [];  # Subtraction result 
 mul = [];  # Multiplication result
 
 # Input handling and matrix dimensions
