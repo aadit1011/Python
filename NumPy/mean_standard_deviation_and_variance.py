@@ -1,6 +1,6 @@
 import numpy as np;  # Importing the NumPy library
 
-# Taking input for lower limit, upper limit, and the number of trials
+# Taking input for lower limit, upper limit, and the number of trials.
 low, upp, trials = map(int, input('Enter the lower limit, upper limit and the total no. of trials=').split());
 
 # Generating an array of random integers within the given range
