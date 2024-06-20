@@ -30,6 +30,8 @@ print(arr_2d)
 print()
 
 # Accessing elements in a 2D array
+print(arr[0,0])
+print()
 print(f"Element at [0][0] (first row, first column): {arr_2d[0][0]}")
 print()
 print(f"Element at [0][2] (first row, third column): {arr_2d[0][2]}")
@@ -45,8 +47,9 @@ arr_3d = np.array([[[1, 2, 3],
 print("3D Array:")
 print(arr_3d)
 print()
-
 # Accessing elements in a 3D array
+print(arr[0,0,0])
+print()
 print(f"Element at [0][0][0] (first block, first row, first column): {arr_3d[0][0][0]}")
 print()
 print(f"Element at [0][0][-1] (first block, first row, last column using negative indexing): {arr_3d[0][0][-1]}")
