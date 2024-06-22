@@ -59,3 +59,11 @@ arr2=np.array([[1,2,3,4,5],
 print(arr2[0][0:3]);
 print() 
 print(arr2[1][0:3]) 
+
+
+
+arr3=np.array([[11,12,13,14,15],
+             [70,80,90,10,20]]) 
+print(arr3[0][0:3:2]);
+print() 
+print(arr3[1][0:3:2]) 
