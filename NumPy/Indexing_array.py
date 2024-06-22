@@ -53,3 +53,9 @@ print()
 print(f"Element at [0][0][0] (first block, first row, first column): {arr_3d[0][0][0]}")
 print()
 print(f"Element at [0][0][-1] (first block, first row, last column using negative indexing): {arr_3d[0][0][-1]}")
+#Slicing
+arr2=np.array([[1,2,3,4,5],
+             [7,8,9,0,10]]) 
+print(arr2[0][0:3]);
+print() 
+print(arr2[1][0:3]) 
