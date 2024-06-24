@@ -2,6 +2,7 @@ import numpy as np
 
 # Slicing and Iterating through arrays
 
+# Without Using nditer() 
 # 1-dimensional array
 print('for 1-dimensional array')
 # Creating a 1D array
@@ -45,3 +46,8 @@ for b in arr3:
         print(f' Printing {c} elements---')
         for d in c:
             print(d)
+
+
+
+
+
