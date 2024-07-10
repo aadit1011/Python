@@ -41,4 +41,11 @@ df['Median(A)'] = np.median(df['A']) # Median of column 'A'
 df['Median(B)'] = np.median(df['B']) # Median of column 'B'
 
 # Displaying the final DataFrame
+print(df)
+
+#Inserting new columns 
+
+df.insert(17,'SD(A)',np.std(df['A']))
+df.insert(18,'SD(B)',np.std(df['B']))
+#Displaying yhr final DataFrame
 df
