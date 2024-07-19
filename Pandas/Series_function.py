@@ -1,5 +1,5 @@
-import pandas as pd  # Importing the pandas library, which is used for data manipulation and analysis.
-import numpy as np  # Importing the numpy library, which is used for numerical computations and array operations.
+import pandas as pd 
+import numpy as np  
 
 # Creating a NumPy array with elements 1 through 8.
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
