@@ -1,4 +1,4 @@
-import numpy as np  # Importing numpy for numerical operations (not directly used in this code)
+import numpy as np  # Importing numpy for numerical operations 
 import pandas as pd  # Importing pandas for data manipulation and analysis
 
 # Reading the CSV file into a DataFrame
