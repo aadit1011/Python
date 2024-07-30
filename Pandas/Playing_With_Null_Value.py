@@ -1,5 +1,5 @@
-import pandas as pd
-import numpy as np
+import numpy as np 
+import pandas as pd 
 
 # Creating the DataFrame with the given data and NaN values
 data = {
@@ -12,28 +12,27 @@ data = {
 # Creating a DataFrame using the dictionary 'data'
 df = pd.DataFrame(data)
 
-# Displaying the created DataFrame
+# Displaying the original DataFrame with NaN values
+print("Original DataFrame with NaN values:")
 print(df)
 
-# Checking whether there are any null values in each column of the DataFrame
-null_values = df.isnull().sum()  # This will return the count of null values in each column
+# To check whether there are any null values in the given dataset or not
+# Using the isnull() function to identify null values and sum() to count them
+null_values = df.isnull().sum()
 print(f'The null values are:\n{null_values}')
 print()
+print(f'The total number of null values in the given data set is: {null_values.sum()}')
 
-# Printing the total number of null values in the entire DataFrame
-print(f'The number of null values in the given data set is: {null_values.sum()}')
-
-# Filling the null values with the specified value (12)
-filled = df.fillna(12)  # This will replace all NaN values with 12
-
-# Displaying the original DataFrame
+# Filling all NaN values with the constant value 12
+# The fillna() function is used to replace null values
+filled = df.fillna(12)
 print(f'Previously:\n{df}')
 print()
+print(f'New DataFrame with NaN values filled with 12:\n{filled}')
 
-# Displaying the DataFrame after filling null values
-print(f'New Value:\n{filled}')
+# Alternatively, filling NaN values in each column with different strategies
 
-# Creating a copy of the original DataFrame to play with NaN values
+# Creating a copy of the DataFrame to play with NaN values
 df_play = df.copy()
 
 # Filling NaN values in column 'A' with a string 'A_e'
@@ -49,6 +48,5 @@ df_play['C'] = df_play['C'].fillna(method='bfill')
 df_play['D'] = df_play['D'].fillna('D')
 
 # Displaying the modified DataFrame with filled NaN values
-print("\nModified DataFrame after handling NaN values:")
+print("\nModified DataFrame after handling NaN values with different strategies:")
 print(df_play)
-
