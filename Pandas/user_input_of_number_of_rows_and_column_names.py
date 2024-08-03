@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 
 # Read the CSV file into a pandas DataFrame
-data = pd.read_csv('data.csv')
+data = pd.read_csv('data.csv') 
 
 # Initialize empty lists to store row and column indices to be displayed
 row = []
@@ -39,7 +39,7 @@ for i in range(ncol):
     col.append(val)
 
 # Use the .loc method to select the specified rows and columns from the DataFrame
-data_set = data.loc[row, col]
+data_set = data.loc[row, col] 
 
 # Display the selected subset of the DataFrame
 print(data_set)
