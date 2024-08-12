@@ -28,5 +28,5 @@ This Folder  serves as a comprehensive guide to mastering data visualization wit
 
 </p>
 
-<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg",width=400,height=400,>
+<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg" ,width=400,height=400>
 <h1>Author-Aadit Sharma</h1>
