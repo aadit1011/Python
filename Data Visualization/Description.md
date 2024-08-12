@@ -1,4 +1,4 @@
-<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg" ,width=400,height=400>
+<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg" width=400 height=400>
 <p>
     Data visualization translates complex data sets into visual formats that are easier for the human brain to comprehend. This can include a variety of visual tools such as:
   
