@@ -1,3 +1,4 @@
+<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg" ,width=400,height=400>
 <p>
     Data visualization translates complex data sets into visual formats that are easier for the human brain to comprehend. This can include a variety of visual tools such as:
   
@@ -27,5 +28,4 @@
   This Folder  serves as a comprehensive guide to mastering data visualization with these two powerful libraries.
 </p>
 
-<img src="https://cdn.spark.app/media/insightout/image/adobestock_320236306.jpeg" ,width=400,height=400>
 <h1>Author-Aadit Sharma</h1>
