@@ -1,10 +1,14 @@
 <p>
   Data visualization translates complex data sets into visual formats that are easier for the human brain to comprehend. This can include a variety of visual tools such as:
 
--Charts: Bar charts, line charts, pie charts, etc.
--Graphs: Scatter plots, histograms, etc.
--Maps: Geographic maps, heat maps, etc.
--Dashboards: Interactive platforms that combine multiple visualizations.
+<ul list-style-typed="disc">
+  <li>Charts: Bar charts, line charts, pie charts, etc.</li>
+  <li>
+Maps: Geographic maps, heat maps, etc.</li>
+  <li>
+Graphs: Scatter plots, histograms, etc.</li>
+</ul>
+Dashboards: Interactive platforms that combine multiple visualizations.
 The primary goal of data visualization is to make data more accessible and easier to interpret, allowing users to identify patterns, trends, and outliers quickly. This is particularly important in the context of big data, where the sheer volume of information can be overwhelming without effective visualization techniques.
 
 Types of Data for Visualization
