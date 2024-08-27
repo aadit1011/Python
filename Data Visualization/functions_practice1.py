@@ -46,6 +46,13 @@ c = float(input('Enter the value of y intercept (c)='))
 # Calculating y values for the linear function using the formula y = mx + c
 y = m * x + c
 
+
+# Setting up the plot figure with a specific size (5x3 inches) and resolution (300 DPI for high quality)
+plt.figure(figsize=(5, 3), dpi=300)
+
+# Enabling grid for better readability with a dashed line style and some transparency
+plt.grid(True, linestyle='--', alpha=0.7)
+
 # Plotting the linear function with the given slope and intercept
 plt.plot(x, y, label=f'y = {m}x + {c}', color='blue')
 
@@ -58,11 +65,7 @@ plt.title(f'Plot of Linear Function: y = {m}x + {c}')  # Title with dynamic form
 plt.axhline(0, color='black', linewidth=0.5)  # Horizontal reference line
 plt.axvline(0, color='black', linewidth=0.5)  # Vertical reference line
 
-# Enabling grid for better readability with a dashed line style and some transparency
-plt.grid(True, linestyle='--', alpha=0.7)
 
-# Setting up the plot figure with a specific size (5x3 inches) and resolution (300 DPI for high quality)
-plt.figure(figsize=(5, 3), dpi=300)
 
 # Adding a legend to the plot
 plt.legend()
@@ -87,6 +90,11 @@ c = float(input('Enter the value of c='))
 # Calculating y values for the quadratic function using the formula y = ax^2 + bx + c
 y = a * x**2 + b * x + c
 
+
+
+plt.figure(figsize=(5, 3), dpi=300)  # Figure size and resolution
+plt.grid(True, linestyle='--', alpha=0.7)  # Grid settings
+
 # Plotting the quadratic function with the user-provided coefficients
 plt.plot(x, y, 'r', label=f'Quadratic Function: y = {a}x^2 + {b}x + {c}')
 
@@ -97,9 +105,6 @@ plt.axvline(0, color='black', linewidth=0.5)  # Vertical reference line at x=0
 plt.xlabel('x')  # x-axis label
 plt.ylabel('y')  # y-axis label
 plt.title('Plot of Quadratic Function')  # Plot title
-plt.figure(figsize=(5, 3), dpi=300)  # Figure size and resolution
-plt.grid(True, linestyle='--', alpha=0.7)  # Grid settings
-
 # Displaying the plot on the screen
 plt.show()
 
@@ -121,6 +126,10 @@ d = float(input('Enter the value of d='))
 # Calculating y values for the cubic function using the formula y = ax^3 + bx^2 + cx + d
 y = a * x**3 + b * x**2 + c * x + d
 
+
+plt.figure(figsize=(5, 3), dpi=300)  # Figure size and resolution
+plt.grid(True, linestyle='--', alpha=0.7)  # Grid settings
+
 # Plotting the cubic function with the user-provided coefficients
 plt.plot(x, y, 'r', label=f'Cubic Function: y = {a}x^3 + {b}x^2 + {c}x + {d}')
 
@@ -131,8 +140,6 @@ plt.axvline(0, color='black', linewidth=0.5)  # Vertical reference line at x=0
 plt.xlabel('x')  # x-axis label
 plt.ylabel('y')  # y-axis label
 plt.title('Plot of Cubic Function')  # Plot title
-plt.figure(figsize=(5, 3), dpi=300)  # Figure size and resolution
-plt.grid(True, linestyle='--', alpha=0.7)  # Grid settings
 
 # Displaying the plot on the screen
 plt.show()
