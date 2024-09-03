@@ -4,11 +4,12 @@ def main():
      num=int(input("Enter number="));
      numb=abs(num);
      print(f'The absolute value of {num} is {numb}');
-     
+
+
 main();
 
 
-#Using eval function
+#Using eval function 
 #eval()
 
 def main():
