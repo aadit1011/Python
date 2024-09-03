@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-x=[1,2,3,4,5]
-y=[1,4,9,16,25]
-plt.plot(x,y) 
-plt.show()
+x=[1,2,3,4,5]#For value of x....
+y=[1,4,9,16,25]#For value of y....
+plt.plot(x,y)
+
+plt.show()#To plot the data...
